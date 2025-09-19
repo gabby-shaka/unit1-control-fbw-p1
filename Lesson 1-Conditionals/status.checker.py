@@ -3,6 +3,7 @@ age = int(input("Enter your age: "))
 print (name)
 
 age = int(input("Enter your age (16-100): "))
+
 if 16 <= age <= 100:
     print (age)
 else:
