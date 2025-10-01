@@ -49,3 +49,4 @@ while i<len(number):
     sum += int(number[i])
     i += 1
 print(f"Total {sum}")
+
