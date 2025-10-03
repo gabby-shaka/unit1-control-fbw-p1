@@ -50,3 +50,25 @@ while i<len(number):
     i += 1
 print(f"Total {sum}")
 
+# Algorithm - sum of  digits (as ints)
+number = int(input("Enter a Number!"))
+sum = 0 
+while number > 0:
+    # Get the last digit
+    digit = number % 10 
+    sum += digit  #add to sum
+    number = number // 10 #remove the last digit
+    
+print(f"The sum of the digitd {number}: {sum}")
+
+
+
+# Algorithm - count digits (as ints)
+number = 54321
+count = 0 
+
+while number > 0:
+    count += 1
+number = number // 10 # Remove the last digit
+print(f"The number {number} has {count} digits!")
+
