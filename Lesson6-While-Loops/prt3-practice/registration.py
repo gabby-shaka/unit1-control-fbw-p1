@@ -48,4 +48,15 @@ while True:
     
 # Confirmation
     
+while True:
+    confirm = input("Confirm registration? (yes *y*/no *n*): ")
     
+    if confirm == ('yes', 'y'):
+        print("Registration successful!")
+        print(f"Welcome, {username}!")
+        break
+    elif confirm == ('no', 'n'):
+        print("Registration cancelled.")
+        break
+    else:
+        print("Please enter 'yes', 'y', 'n'or 'no'.")
